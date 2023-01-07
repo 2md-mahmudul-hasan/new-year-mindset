@@ -1,10 +1,9 @@
-/* banner area */
-
 * {
   margin: 0;
   padding: 0;
 }
 
+/* Header area */
 header {
   background-image: url(../images/banner1.png);
   background-repeat: no-repeat;
@@ -52,7 +51,7 @@ button.banner-btn:focus {
   border: none
 }
 
-/* faulue section */
+/* Failure area */
 .Failure-area {
   display: flex;
   align-items: center;
@@ -88,7 +87,7 @@ button.banner-btn:focus {
   margin-right: 5px;
 }
 
-/* my plan */
+/* My plan */
 .my-plan-area {
   padding: 50px 0px;
   display: flex;
@@ -97,6 +96,7 @@ button.banner-btn:focus {
   justify-content: center;
 }
 
+/* Mindset */
 .mindset-area {
   margin: 50px auto;
   background-image:
@@ -141,7 +141,6 @@ button.banner-btn:focus {
   height: 500px;
 }
 
-.future {}
 
 .future h3 {
   font-weight: bold;
