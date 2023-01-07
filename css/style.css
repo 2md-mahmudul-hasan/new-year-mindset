@@ -1,0 +1,148 @@
+/* banner area */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url(../images/banner3.png);
+  background-repeat: no-repeat;
+  text-align: right;
+  height: 500px;
+  background-position: center;
+  position: relative;
+}
+
+.banner-content {
+  position: absolute;
+  right: 0;
+  top: 200px;
+}
+
+/* faulue section */
+.Failure-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-content {
+  margin-left: 50px;
+
+}
+
+.failure-content h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #151414;
+}
+
+.failure-content p {
+  font-size: 16px;
+  color: #444343;
+}
+
+.failure-content ul li {
+  list-style: none;
+}
+
+.failure-content ul li::before {
+  content: '✓';
+  color: green;
+  margin-right: 5px;
+}
+
+/* my plan */
+.my-plan-area {
+  padding: 50px 0px;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.mindset-area {
+  margin: 50px auto;
+  background-image:
+    linear-gradient(to left, rgba(0, 38, 255, 0.374), rgba(255, 0, 191, 0.502)),
+    url(../images/watch.png);
+  width: 90%;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+}
+
+.mindset-content {
+  padding-left: 50px;
+}
+
+.mindset-area h2 {
+  color: #fff;
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.mindset-btn {
+  color: rgba(255, 0, 191);
+  margin-top: 10px;
+  padding: 20px 30px;
+  background-color: wheat;
+  border-radius: 5px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+/* footer */
+.footer {
+  background-color: #151414;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  height: 500px;
+}
+
+.future {}
+
+.future h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.future p {
+  margin-bottom: 10px;
+}
+
+.subscribe h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.subscribe input {
+  display: block;
+  width: 200px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  background-color: #010000;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button.footer-btn {
+  display: block;
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #005FAC;
+  border: none;
+}
