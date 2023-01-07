@@ -57,6 +57,7 @@ button.banner-btn:focus {
 
 /* Failure area */
 .failure-area {
+  padding:50px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
