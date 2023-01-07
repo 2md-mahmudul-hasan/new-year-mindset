@@ -20,7 +20,7 @@ header {
   top: 200px;
   width: 400px;
   text-align: right;
-  padding: 80px;
+  padding: 0px 80px;
 
 }
 
@@ -52,7 +52,7 @@ button.banner-btn:focus {
 }
 
 /* Failure area */
-.Failure-area {
+.failure-area {
   display: flex;
   align-items: center;
   justify-content: center;
