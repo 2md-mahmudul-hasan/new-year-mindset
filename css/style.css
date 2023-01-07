@@ -10,6 +10,10 @@ header {
   background-repeat: no-repeat;
   text-align: right;
   height: 500px;
+<<<<<<< HEAD
+=======
+/*   background-position: center; */
+>>>>>>> 957ff3c8b28c667818382711b1fb4a8058e0f96d
   position: relative;
   padding: 80px;
 }
