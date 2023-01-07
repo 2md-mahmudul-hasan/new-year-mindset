@@ -57,14 +57,13 @@ button.banner-btn:focus {
 
 /* Failure area */
 .failure-area {
-  padding:50px 0px;
+  padding:100px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .failure-content {
-  padding: 50px 0px;
   margin-left: 50px;
   width: 400px;
 
